@@ -6,13 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/menu-hamburger.css">
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/about.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Roboto:ital,wght@0,300;0,500;1,300;1,500&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
     <title>Mbraz | Portfolio</title>
 </head>
 <body>
     <header>
         <!-- Criação da navbar com os links do menu-->
         <nav class="navbar">
-            <a href="#" class="nav-branding">DEV</a>
+            <a href="#" class="nav-branding">Mbrazf</a>
             <ul class="nav-menu">
                 <li class="nav-item">
                     <a href="#" class="nav-link">Home</a>
@@ -41,12 +50,33 @@
 
     <main class="main-content">
         <div class="main-container">
-            <h1 class="main-title">Olá, eu sou o Marcelo Braz da Silva Filho</h1>
+            <h1  class="main-title">Olá, eu sou o <span class="name">Marcelo Braz <span class="wave" >&#128075;&#127996;</span></h1>
+            <p data-aos="fade-right">Desenvolvedor Front End Iniciante | Júnior</p>
         </div>
-        <div class="profile-image"></div>
     </main>
 
+    <section class="about-section">
+        <div  class="about-title" data-aos="fade-right">
+            <h1>Sobre</h1>
+        </div>
+        <div class="about-container" data-aos="fade-right">
+            <div class="about-text" data-aos="fade-right">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit dolorum hic eum. Harum quod explicabo quibusdam ab a earum nulla sed vel corporis, doloribus ullam voluptate modi necessitatibus eum assumenda.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptates asperiores in eum tempora autem, repellendus molestiae rem quas minima debitis at laboriosam aliquid illum, fugit architecto, temporibus perspiciatis modi.
+                </p>
+            </div>
+            <div class="profile-image" data-aos="fade-right"></div>
+        </div>
+    </section>
+
         <script src="/Javascript/menu-hamburger.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init()
+        </script>
 </body>
 
 </html>
