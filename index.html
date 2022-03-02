@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/menu-hamburger.css">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/skills.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,19 +25,19 @@
             <a href="#" class="nav-branding">Mbrazf</a>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Home</a>
+                    <a href="#home" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Sobre</a>
+                    <a href="#sobre" class="nav-link">Sobre</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Projetos</a>
+                    <a href="#projetos" class="nav-link">Projetos</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Skills</a>
+                    <a href="#skills" class="nav-link">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Contato</a>
+                    <a href="#contato" class="nav-link">Contato</a>
                 </li>
             </ul>
             <!--Criação do icone do menu hamburger-->
@@ -48,19 +49,19 @@
         </nav>
     </header>
 
-    <main class="main-content">
+    <main class="main-content" id="home">
         <div class="main-container">
             <h1  class="main-title">Olá, eu sou o <span class="name">Marcelo Braz <span class="wave" >&#128075;&#127996;</span></h1>
-            <p data-aos="fade-right">Desenvolvedor Front End Iniciante | Júnior</p>
+            <p>Desenvolvedor Front End Iniciante | Júnior</p>
         </div>
     </main>
 
-    <section class="about-section">
-        <div  class="about-title" data-aos="fade-right">
-            <h1>Sobre</h1>
+    <section class="about-section" id="sobre">
+        <div class="container-title">
+            <h1 class="title">Sobre</h1>
         </div>
         <div class="about-container" data-aos="fade-right">
-            <div class="about-text" data-aos="fade-right">
+            <div class="about-text">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit dolorum hic eum. Harum quod explicabo quibusdam ab a earum nulla sed vel corporis, doloribus ullam voluptate modi necessitatibus eum assumenda.
                 </p>
@@ -68,10 +69,45 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptates asperiores in eum tempora autem, repellendus molestiae rem quas minima debitis at laboriosam aliquid illum, fugit architecto, temporibus perspiciatis modi.
                 </p>
             </div>
-            <div class="profile-image" data-aos="fade-right"></div>
+                <div class="profile-image">
+                </div>
         </div>
     </section>
 
+    <section class="skills-section" id="skills">
+        
+        <div class="container-title">
+            <h1 class="title">Skills</h1>
+        </div>
+        <div class="skills-container">
+            <div class="skills">
+                <img src="/assets/img/Vector.png" alt="" class="tag-image">
+                <ul>
+                    <li>- Git</li>
+                    <li>- CSS</li>
+                    <li>- HTML</li>
+                    <li>- Bulma</li>
+                    <li>- Bootstrap</li>
+                    <li>- Javascript</li>
+                    <li>- Wordpress</li>
+                </ul>
+            </div>
+        </div>  
+
+        <div class="container-title">
+            <h1 class="title">Education</h1>
+        </div>
+        <div class="skills-container">
+            <div class="skills">
+                <h2>UNINTER</h2>
+                <h3>Análise e Desenvolvimento de Sistemas</h2>
+                <span>Completo - 2018 / 2020</span>
+            </div>
+    </section>
+
+
+   
+        <script src="/Javascript/smooth-scroll.js"></script>
         <script src="/Javascript/menu-hamburger.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>

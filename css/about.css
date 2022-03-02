@@ -6,21 +6,45 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    
-    
 }
 
 .about-container {
-    height: 400px;
-    width: 90%;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    padding: 30px;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 400px;
+    background: chocolate;
+}
+
+.container-title {
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.title{
+    display: flex;
+    width: 90%;
+    text-align: left;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4rem;
+    color: #979DAC;
+    opacity: 0.5;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .about-text {
-    width: 90%;
+    width: 50%;
+}
+
+.about-text p {
+    margin-top: 20px;
+    font-size: 1rem;
+    font-family: "Inconsolata";
+    font-weight: 500;
 }
 
 
@@ -35,63 +59,19 @@
     border: 5px solid black;
 }
 
-.name {
-    color: yellow;
-}
-
-
-.about-container p {
-    margin-top: 20px;
-    font-size: 1rem;
-    font-family: "Inconsolata";
-    font-weight: 500;
-    
-}
-
-.about-button {
-    margin-top: 30px;
-    padding: 10px;
-    color: white;
-    background-color: blue;
-    border: 1px solid black;
-}
-
-
-
-.about-title{
-    display: flex;
-    align-items: center;
-    width: 90%;
-    height: 100px;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 900;
-    font-size: 4rem;
-    color: #EDF6F9;
-    opacity: 0.3;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-@media(max-width: 768px){
-    .about-content{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        height: 600px;
-    }
+@media(max-width: 768px) {
 
     .about-container{
         width: 90%;
-        height: 100vh;
+        height: 500px;
         flex-direction: column;
         align-items: center;
+        justify-content: space-evenly;
         
     }
 
-    .about-title {
+    .title {
         font-size: 3rem;
-        padding-top: 50px;
     }
 
     .profile-image{
@@ -100,6 +80,6 @@
 
     .about-text{
         order: 2;
+        width: 80%;
     }
-    
 }
