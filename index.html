@@ -8,10 +8,15 @@
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/about.css">
     <link rel="stylesheet" href="/css/skills.css">
+    <link rel="stylesheet" href="/css/projects-section.css">
+    <link rel="stylesheet" href="/css/contact-footer.css">
+    <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="/css/media-queries.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Roboto:ital,wght@0,300;0,500;1,300;1,500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/23cda6e370.js" crossorigin="anonymous"></script>
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -31,10 +36,10 @@
                     <a href="#sobre" class="nav-link">Sobre</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#projetos" class="nav-link">Projetos</a>
+                    <a href="#skills" class="nav-link">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#projetos" class="nav-link">Projetos</a>
                 </li>
                 <li class="nav-item">
                     <a href="#contato" class="nav-link">Contato</a>
@@ -57,9 +62,9 @@
     </main>
 
     <section class="about-section" id="sobre">
-        <div class="container-title">
-            <h1 class="title">Sobre</h1>
-        </div>
+        
+        <h1 class="title" data-aos="fade-right">Sobre</h1>
+        
         <div class="about-container" data-aos="fade-right">
             <div class="about-text">
                 <p>
@@ -76,11 +81,11 @@
 
     <section class="skills-section" id="skills">
         
-        <div class="container-title">
-            <h1 class="title">Skills</h1>
-        </div>
+        
+        
         <div class="skills-container">
-            <div class="skills">
+            <div class="skills" data-aos="fade-right">
+                <h1 class="title" >Skills</h1>
                 <img src="/assets/img/Vector.png" alt="" class="tag-image">
                 <ul>
                     <li>- Git</li>
@@ -94,19 +99,90 @@
             </div>
         </div>  
 
-        <div class="container-title">
-            <h1 class="title">Education</h1>
-        </div>
-        <div class="skills-container">
-            <div class="skills">
+        
+        <div class="skills-container-right ">
+            <div class="education" data-aos="fade-left">
+                <h1 class="title right">Education</h1>
                 <h2>UNINTER</h2>
                 <h3>Análise e Desenvolvimento de Sistemas</h2>
                 <span>Completo - 2018 / 2020</span>
             </div>
     </section>
 
+    <section class="projects-section" id="projetos">
+        <h1 class="title-project" data-aos="fade-right">Projetos</h1>
+
+        <div class="container">
+            <div class="polaroid" data-aos="fade-right" data-aos="fade-right">
+                <img class="photo" src="https://images.unsplash.com/photo-1508138221679-760a23a2285b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80/800x800">
+
+                <div class="caption">
+                    <h2>Somewhere</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed suscipit accusamus, laudantium similique esse, totam eum temporibus, dolores ipsum quibusdam recusandae fugit eos odit modi porro? Ratione debitis facilis omnis.</p>
+                </div>
+            </div>
+
+            <div class="polaroid" data-aos="fade-right">
+                <img class="photo" src="https://images.unsplash.com/photo-1508138221679-760a23a2285b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80/800x800">
+
+                <div class="caption">
+                    <h2>Somewhere</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed suscipit accusamus, laudantium similique esse, totam eum temporibus, dolores ipsum quibusdam recusandae fugit eos odit modi porro? Ratione debitis facilis omnis.</p>
+                </div>
+            </div>
+
+            <div class="polaroid" data-aos="fade-right">
+                <img class="photo" src="https://images.unsplash.com/photo-1508138221679-760a23a2285b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80/800x800">
+
+                <div class="caption">
+                    <h2>Somewhere</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed suscipit accusamus, laudantium similique esse, totam eum temporibus, dolores ipsum quibusdam recusandae fugit eos odit modi porro? Ratione debitis facilis omnis.</p>
+                </div>
+            </div>
+
+            <div class="polaroid" data-aos="fade-left">
+                <img class="photo" src="https://images.unsplash.com/photo-1508138221679-760a23a2285b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80/800x800">
+
+                <div class="caption">
+                    <h2>Somewhere</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed suscipit accusamus, laudantium similique esse, totam eum temporibus, dolores ipsum quibusdam recusandae fugit eos odit modi porro? Ratione debitis facilis omnis.</p>
+                </div>
+            </div>
+
+            <div class="polaroid" data-aos="fade-left">
+                <img class="photo" src="https://images.unsplash.com/photo-1508138221679-760a23a2285b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80/800x800">
+
+                <div class="caption">
+                    <h2>Somewhere</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed suscipit accusamus, laudantium similique esse, totam eum temporibus, dolores ipsum quibusdam recusandae fugit eos odit modi porro? Ratione debitis facilis omnis.</p>
+                </div>
+            </div>
+
+            <div class="polaroid" data-aos="fade-left">
+                <img class="photo" src="https://images.unsplash.com/photo-1508138221679-760a23a2285b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80/800x800">
+
+                <div class="caption">
+                    <h2>Somewhere</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed suscipit accusamus, laudantium similique esse, totam eum temporibus, dolores ipsum quibusdam recusandae fugit eos odit modi porro? Ratione debitis facilis omnis.</p>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <footer class="contact-footer" id="contato">
+        <h3>Site portfólio feito por <a href="">Marcelo Braz</a></h3>
+        <div class="social-icons">
+            <a href="#" target="blank" class="fa fa-facebook icons"></a>
+            <a href="#" target="blank" class="fa fa-twitter icons"></a>
+            <a href="#" target="blank" class="fa fa-instagram icons"></a>
+            <a href="https://github.com/mbrazf" target="blank" class="fa fa-github icons"></a>
+            <a href="https://www.linkedin.com/in/marcelobrazf/" target="blank" class="fa fa-linkedin icons"></a>
+          </div>
+    </footer>
+
 
    
+        
         <script src="/Javascript/smooth-scroll.js"></script>
         <script src="/Javascript/menu-hamburger.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

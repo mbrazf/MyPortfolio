@@ -19,6 +19,13 @@ a {
     font-family: "Roboto";
 }
 
+a:hover {
+    color: #279AF1;
+    transition: ease-in-out;
+    transform: scale(1.2);
+    
+}
+
 
 
 .navbar {
@@ -46,7 +53,7 @@ a {
 }
 
 .nav-link:hover {
-    color: #d0b3d6;
+    color: #279AF1;
     font-style: italic;
 }
 /* Ocultamos o icone do menu hamburger em telas maiores*/
@@ -118,6 +125,8 @@ a {
         padding: 0 24px;
     }
 }
+
+
 
 @media(min-width:768px){
     .navbar {
