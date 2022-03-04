@@ -1,50 +1,36 @@
 .about-text p {
-    margin-top: 20px;
-    font-size: 1rem;
-    font-family: "Inconsolata";
-    font-weight: 500;
-    color: #fff;
+    margin-top: 20px; 
 }
 
-
-
-.title{
-    
+.title, .title-variation{
     width: 90%;
-    font-family: "Roboto";
     font-style: normal;
     font-weight: 900;
     font-size: 4rem;
     color: #fff;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 4px #001233;
 }
 
-.right {
-    text-align: right;
-}
-
-.title-project{
-    padding: 100px 0 0 80px;
+.title-variation{
     text-align: left;
-    width: 90%;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 900;
-    font-size: 4rem;
-    color: #fff;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-
-.education span {
-    font-family: "Roboto";
-    font-weight: 900;
-    color: #000;
+.main-title {
+    font-weight: 500;
+    font-size: 2.5rem;
 }
-h2, h3, ul, li, .caption p {
-    font-family: "Roboto";
-    font-size: 1.2rem;
-    font-family: "Inconsolata";
+
+.main-container p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.name {
+    color: yellow;
+}
+
+h2, h3, ul, li, .caption p, .about-text p {
+    font-size: 1rem;
     font-weight: 500;
     color: #fff;
 }
@@ -52,9 +38,3 @@ h2, h3, ul, li, .caption p {
     width: 50%;
 }
 
-.caption p {
-    font-size: 1rem;
-    font-family: "Inconsolata";
-    font-weight: 500;
-    color: #fff;
-}

@@ -54,7 +54,6 @@ a:hover {
 
 .nav-link:hover {
     color: #279AF1;
-    font-style: italic;
 }
 /* Ocultamos o icone do menu hamburger em telas maiores*/
 .hamburger {
@@ -109,9 +108,11 @@ a:hover {
     }
 
     .nav-menu.active {
-        top: 70px;
+        top: 0px;
         position: absolute;
     }
+
+   
 
     .nav-branding {
         z-index: 1;

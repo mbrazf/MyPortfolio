@@ -1,10 +1,41 @@
-@media (min-width: 576px) {
+@media (min-width: 375px) and (max-width: 768px) { 
+    .skills-section {
+       flex-direction: column;
+       justify-content: space-evenly;
+       height: 700px;
+    }
 
-}
+    .projects-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
-@media (min-width: 992px) { 
+    
+    .title-variation{
+        padding: 50px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        color: #fff;
+        text-shadow: 0px 4px 4px #001233;
+    }
 
-
+    .about-section {
+        height: 700px;
+    }
+	.about-container {
+		height: 650px;
+        padding: 20px;
+	}
+	.profile-image {
+		
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+	}
 }
 
 @media(max-width: 768px) {
@@ -31,3 +62,12 @@
     }
 }
 
+@media  (min-width: 1024px) { 
+    .title-variation{
+        padding: 60px;
+    }
+
+    .container {
+        width: 80%;
+    }
+}
